@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1805892_reimbu_0.reimbursement_resolvers" name="x_1805892_reimbu_0.reimbursement_resolvers">73512387c344321012482925990131eb</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:07:34</sys_created_on>
+        <sys_id>bb516387c34432101248292599013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>73512387c344321012482925990131eb</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
+        <sys_update_name>sys_embedded_help_role_bb516387c34432101248292599013111</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:07:34</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
