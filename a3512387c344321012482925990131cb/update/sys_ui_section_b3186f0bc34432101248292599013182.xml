@@ -4,41 +4,41 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>004c7787c3c4321012482925990131ce</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>b0a1512bc300b2101248292599013111</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_by</element>
+            <element>opened_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>084c7787c3c4321012482925990131ce</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>fca1512bc300b2101248292599013111</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>spending_date</element>
+            <element>spending_dollars</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>004c7787c3c4321012482925990131cf</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>f4a1512bc300b2101248292599013112</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,125 +46,111 @@
             <element>spending_reais</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>084c7787c3c4321012482925990131cf</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>fca1512bc300b2101248292599013112</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>spending_dollars</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>004c7787c3c4321012482925990131d0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>084c7787c3c4321012482925990131d0</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>f4a1512bc300b2101248292599013113</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>004c7787c3c4321012482925990131d1</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>fca1512bc300b2101248292599013113</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>category</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>084c7787c3c4321012482925990131d1</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>f4a1512bc300b2101248292599013114</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reimbursement_group</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>004c7787c3c4321012482925990131d2</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>fca1512bc300b2101248292599013114</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>9</position>
+            <element>spending_date</element>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>084c7787c3c4321012482925990131d2</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>f4a1512bc300b2101248292599013115</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>004c7787c3c4321012482925990131d3</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>fca1512bc300b2101248292599013115</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 19:05:01</sys_created_on>
-            <sys_id>084c7787c3c4321012482925990131d3</sys_id>
+            <sys_created_on>2025-09-23 19:56:33</sys_created_on>
+            <sys_id>f4a1512bc300b2101248292599013116</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1805892_reimbu_0_reimbursement_request" sys_domain="global" view="Default view">b3186f0bc34432101248292599013182</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 19:05:01</sys_updated_on>
+            <sys_updated_on>2025-09-23 19:56:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

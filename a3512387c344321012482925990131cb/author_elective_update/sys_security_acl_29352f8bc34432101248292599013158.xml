@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1805892_reimbu_0_reimbursement_category</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:24:21</sys_created_on>
+        <sys_id>29352f8bc34432101248292599013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1805892_reimbu_0_reimbursement_category</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
+        <sys_update_name>sys_security_acl_29352f8bc34432101248292599013158</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:24:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursements">a3512387c344321012482925990131cb</application>
+        <file_path/>
+        <instance_id>313f7b06eb6d6e5cc040fddacad0cd21</instance_id>
+        <instance_name>dev348309</instance_name>
+        <name>sys_security_acl_29352f8bc34432101248292599013158</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1805892_reimbu_0_reimbursement_category</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 17:24:21</sys_created_on><sys_id>29352f8bc34432101248292599013158</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1805892_reimbu_0_reimbursement_category</sys_name><sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package><sys_policy/><sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope><sys_update_name>sys_security_acl_29352f8bc34432101248292599013158</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 17:24:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1681490128</payload_hash>
+        <record_name>x_1805892_reimbu_0_reimbursement_category</record_name>
+        <reverted_from/>
+        <source>8f83efcbc30432101248292599013178</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:24:21</sys_created_on>
+        <sys_id>ed352f8bc3443210124829259901315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199727481230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:24:21</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e1352f8b474432107bd0a26e694d385c</update_guid>
+        <update_guid_history>e1352f8b474432107bd0a26e694d385c:-1681490128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 19:57:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6a4d59bca413494c9a743e2c292e62a4</sys_id>
+        <sys_metadata>29352f8bc34432101248292599013158</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1805892_reimbu_0_reimbursement_category</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
+        <sys_parent display_value="x_1805892_reimbu_0_reimbursement_category">3c35eb8bc34432101248292599013133</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
+        <sys_scope_delete display_value="">2fb25dde9b96449b9cb9bbb89b261ae9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_29352f8bc34432101248292599013158</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_29352f8bc34432101248292599013158">ed352f8bc3443210124829259901315c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 19:57:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

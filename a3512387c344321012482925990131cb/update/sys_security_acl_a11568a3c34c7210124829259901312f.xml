@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>View only requests from the resolver's category group.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1805892_reimbu_0_reimbursement_request</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[if (gs.hasRole('hr_manager')) {
+    answer = true;
+} else {
+    var requestGroup = current.reimbursement_group;
+
+    var userGroups = gs.getUser().getMyGroups();
+
+    answer = requestGroup && userGroups.indexOf(requestGroup.toString()) !== -1;
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 16:45:50</sys_created_on>
+        <sys_id>a11568a3c34c7210124829259901312f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1805892_reimbu_0_reimbursement_request</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
+        <sys_update_name>sys_security_acl_a11568a3c34c7210124829259901312f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 20:47:23</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a11568a3c34c7210124829259901312f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 16:45:46</sys_created_on>
+        <sys_id>cef52423c34c721012482925990131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 16:45:46</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
