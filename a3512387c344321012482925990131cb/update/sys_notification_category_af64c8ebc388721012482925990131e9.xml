@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>Reimbursement Notifications</name>
+        <short_description/>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 14:19:23</sys_created_on>
+        <sys_id>af64c8ebc388721012482925990131e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement Notifications</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
+        <sys_update_name>sys_notification_category_af64c8ebc388721012482925990131e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 14:19:23</sys_updated_on>
+    </sys_notification_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=af64c8ebc388721012482925990131e9"/>
+</record_update>
