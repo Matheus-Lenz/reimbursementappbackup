@@ -45,7 +45,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>sys_created_by</recipient_fields>
+        <recipient_fields>opened_by</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc75c8ebc38872101248292599013120</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reimbursement Approval notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
         <sys_update_name>sysevent_email_action_fc75c8ebc38872101248292599013120</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 14:24:49</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:04:51</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

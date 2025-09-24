@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Reimbursement Notifications" name="Reimbursement Notifications">af64c8ebc388721012482925990131e9</category>
         <collection>x_1805892_reimbu_0_reimbursement_request</collection>
-        <condition/>
+        <condition table="x_1805892_reimbu_0_reimbursement_request">state=4^EQ<item display_value="Paid &amp; Finished" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
@@ -29,7 +31,7 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>triggered</generation_type>
+        <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
@@ -38,14 +40,14 @@
         <message/>
         <message_html><![CDATA[<p>Hello ${opened_by.first_name},</p>
 <p>&nbsp;</p>
-<p>We would like to update you on the status of your reimbursement request, it was denied by your manager.</p>
+<p>We would like to update you on the status of your reimbursement request.</p>
 <p>&nbsp;</p>
-<p>You can check below for further information on the rejection:</p>
+<p>The team in charge of processing the payment has confirmed the reimbursement request was paid and finished.</p>
 <p>&nbsp;</p>
-<p>${rejection_reason}</p>]]></message_html>
+<p>If you have any issues or still hasn't received your reimbursement on the next 5 business days, please let contact support.</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Reimbursement Rejection notification</name>
+        <name>Reimbursement Paid notification</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -56,26 +58,37 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your reimbursement request number: ${number} was rejected</subject>
+        <subject>Your reimbursement request number: ${number} was paid</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 14:20:25</sys_created_on>
+        <sys_created_on>2025-09-24 13:04:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a40480ebc388721012482925990131db</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Reimbursement Rejection notification</sys_name>
+        <sys_id>2cdcb0fbc340f21012482925990131bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reimbursement Paid notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
-        <sys_update_name>sysevent_email_action_a40480ebc388721012482925990131db</sys_update_name>
+        <sys_update_name>sysevent_email_action_2cdcb0fbc340f21012482925990131bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 13:04:37</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:12:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2cdcb0fbc340f21012482925990131bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 15:12:46</sys_created_on>
+        <sys_id>614a59bfc3c0f210124829259901319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:12:46</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
