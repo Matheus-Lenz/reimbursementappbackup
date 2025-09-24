@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Daily Reimbursement pending Approval or Rejection requests">a4c782f3c3c4f2101248292599013114</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 18:31:29</sys_created_on>
+        <sys_id>e0c782f3c3c4f2101248292599013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a4c782f3c3c4f2101248292599013114</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1805892_reimbu_0">a3512387c344321012482925990131cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">a3512387c344321012482925990131cb</sys_scope>
+        <sys_update_name>sys_report_users_groups_e0c782f3c3c4f2101248292599013115</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 18:31:29</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>
